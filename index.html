@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instructions Project</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- TODO: Paste "Animate.css" CDN here: -->
+
+    <!-- ^^^^^^ -->
+</head>
+<nav class="navbar bg-dark" data-bs-theme="dark">
+    <a class="navbar-brand px-2 text-light" href="https://animate.style/">
+        Click for Animate.css Documentation</a>
+</nav>
+
+<body class="">
+    <div class="text-center">
+        <img src="CSS.png" class="rounded mx-auto logo-img-3" alt="CSS">
+        <img src="animatecss.jpeg" class="rounded mx-auto logo-img-2" alt="Animate.css">
+        <img src="VSCode.png" class="rounded mx-auto logo-img" alt="VSCode">
+    </div>
+    <h1 class="p-2 text-center text-dark">Demo Animations!</h1>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4 px-2 text-center">
+        <div class="col">
+            <div class="card bg-warning">
+                <div class="card-body">
+                    <h5 class="card-title">This is a bounce animation!</h5>
+                    <!-- TODO: add classes for bounce animation to "h1" element -->
+                    <h1 class="card-text ">Bounce</h1>
+                    <!-- ^^^^^^ -->
+                    <button class="btn btn-success" onclick="bounceAnimation()">Click for Demo</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card bg-warning">
+                <div class="card-body">
+                    <h5 class="card-title">This is a flip animation!</h5>
+                    <!-- TODO: add classes for flip animation to "h1" element -->
+                    <h1 class="card-text ">Flip </h1>
+                    <!-- ^^^^^^ -->
+                    <button class="btn btn-success" onclick="flipAnimation()">Click for Demo</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card bg-warning">
+                <div class="card-body">
+                    <h5 class="card-title">This is a wobble animation!</h5>
+                    <!-- TODO: add classes for wobble animation to "h1" element-->
+                    <h1 class="card-text ">Wobble</h1>
+                    <!-- ^^^^^^ -->
+                    <button class="btn btn-success" onclick="wobbleAnimation()">Click for Demo</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark text-center p-2 fixed-bottom text-light">
+        <p>&copy; Gavin Schroeder 2024</p>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
